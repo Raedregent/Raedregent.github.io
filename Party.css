@@ -1,0 +1,396 @@
+.content{
+	
+	
+	
+	text-align: Center;
+	
+	
+	
+	
+}
+
+    .banner {
+        background-color: #000080;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+		height: 100px;
+    }
+	
+    .banner11 {
+        background-color: #000080;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+		height: 100px;
+    }
+    .banner2 {
+        background-color: #fff;
+        opacity: 0.7;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+		margin-top:200px;
+        width: 1000px ;
+        height:300px;
+        
+    }
+	.banner6 {
+        background-color:  #000080;
+        opacity: 0.7;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 10px 20px;
+       
+        height:30px;
+        
+    }
+	 .banner3 {
+        background-color: #fff;
+        opacity: 0.7;
+        color: #000;
+       padding-top: -50px
+       margin-bottom:100px;
+       align-items:Center;
+    text-align:Center;
+       
+        width: 600px ;
+        height:300px;
+        
+    }
+
+
+
+    .More{
+
+        height: 30px;
+        width: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #000;
+        font-weight: bold;
+    }
+ p
+ {
+    line-height: 2.5; 
+    color: black;
+ }
+
+  .container2 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+    }
+    .box {
+      cursor: pointer;
+      border: 1px #e62694;
+	  box-shadow: 10px 10px #ac146b;
+	  background-color: #e62694;
+      padding-left:30px;
+      text-align: center;
+	  margin: 50px;
+	  justify-content: center;
+      align-items: center;
+    }
+    .logo img {
+        max-width: 200px;
+        height: auto;
+    }
+    /* styles.css */
+    .container {
+       
+        text-align: center;
+        color: white;
+		 height:600px;
+      }
+	  .container img{
+		  
+		  
+		
+		   display: block;
+		  
+		  
+	  }
+	 .container2 {
+		 
+		 background-color: #000080;
+		 width:100%;
+		 height:500px;
+		  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		 color: white;
+		 padding-top: 0px;
+		  text-align: center;
+		 
+	 }
+	 .container2 img{
+		 
+		 display: block;
+		 
+		
+	 }
+      .img {
+        display: block;
+    }
+    .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    
+      .centered {
+		  margin-top:70px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+	  .centered1 {
+		  margin-top:100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropbtn {
+        background-color: transparent;
+        color: #fff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0C6170;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color:  #B1D4E0;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color:black;
+    }
+    /* Apply a background color and set text color */
+.footer {
+    
+    color: black; /* Text color for the footer */
+    margin:0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+
+/* Center align the footer content */
+.footer-content {
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center align the content horizontally */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center align items vertically */
+	
+ 
+}
+
+/* Style the footer logo and event name */
+.footer-logo img {
+    max-width: 100px; /* Set a maximum width for the logo */
+    margin-right: 10px; /* Add spacing between logo and event name */
+}
+
+
+/* Style the social media icons */
+.footer-social ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+}
+
+.footer-social li {
+    display: inline-block; /* Display icons horizontally */
+    margin-right: 10px; /* Add spacing between icons */
+}
+
+.footer-social img {
+    max-width: 30px; /* Set a maximum width for the social media icons */
+}
+
+/* Style the footer bottom section */
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2); /* Add a semi-transparent background */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center align text */
+	
+}
+
+/* Style copyright text and attribution */
+.footer-bottom p {
+    margin: 0; /* Remove default margin */
+
+}
+
+/* Style the Designed by text */
+.footer-bottom p:last-child {
+    font-size: 14px; /* Adjust font size for attribution */
+}
+.services-box{
+	
+	display:flex;
+	margin:100px;
+    justify-content:space-around;
+}
+ .service
+{
+  margin: 8px;
+}
+.flip-box {
+  background-color:#000080;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #f1f1f1;  
+  border-radius: 10px;
+  perspective: 1000px;
+}
+
+.flip-box1 {
+  background-color: #CD7F32;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;  
+  border-radius: 10px;
+  perspective: 1000px;
+}
+.flip-box2 {
+  background-color: #c0c0c0;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;  
+  border-radius: 10px;
+  perspective: 1000px;
+}
+.flip-box3 {
+  background-color: #FFD700;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;  
+  border-radius: 10px;
+  perspective: 1000px;
+}
+.flip-box4 {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;  
+  border-radius: 10px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box1:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box2:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-box3:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-box4:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flip-box-front {
+  background-color: ;
+  color: white;
+  border-radius: 10px;
+}
+
+.flip-box-front img
+{
+  height: 100px;
+  width: 100px;
+}
+
+.flip-box-back {
+  background-color: #ffffff;
+  color: #000;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  padding: 16px;
+}
+.video-background 
+{     position: fixed;     top: 0;     left: 0;     width: 100%;     height: 450px;     overflow: hidden;     z-index: -1; /* Place it behind other content */} 
+video {     
+width: 100%;     
+height: 100%;     
+object-fit: cover; /* Ensure the video covers the entire container */
+}
+
+.zoom-buttons {    align-items:right; position: fixed;     top: 10px;     right: 10px;     display: flex;     flex-direction: column;      /* Ensure it's above other elements */} .zoom-buttons button {     font-size: 18px;     margin-bottom: 5px;     cursor: pointer; }
