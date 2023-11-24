@@ -1,0 +1,108 @@
+ </section>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Time</title>
+    <link rel="stylesheet" href="Party.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/6c5fb23c6b.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+  <script>
+  
+  let currentZoom = 100; // Initial zoom level in percentage
+  function zoomIn() 
+  {    
+  currentZoom += 10;     
+  applyZoom(); } 
+  function zoomOut() 
+  {     
+  currentZoom -= 10;     
+  applyZoom(); } 
+  function applyZoom() 
+  {     
+  document.body.style.zoom = `${currentZoom}%`; 
+  }
+
+  
+  </script>
+   
+
+</head>
+<body>
+<div class="banner">
+
+<div class="logo">
+<a href= "Index final.html">
+<img src="party-time-blue cropped.png" alt="Company Logo">
+</a>
+<!-- Zoom buttons -->    
+<div class="zoom-buttons">        
+<button onclick="zoomIn()">+</button>        
+<button onclick="zoomOut()">-</button>    
+</div>
+</div>
+<span style="margin-left:60px; text-align:center;" class="company-name"><h3>Email: ask@partytime.com / Call: 800 PARTY TIME (Toll Free 24X7)</h3></span> 
+ </div>
+<div class="banner6">
+    <div class="dropdown">
+        <button class="dropbtn" onclick="location.href='Our_clients page.html';">Our Clients Page</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="location.href='Aboutuspage.html';">About Us</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="location.href='Servicespage.html';">Our Services</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="location.href='packages.html';">Packages</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="location.href='Blogs_page.html';">Blogs</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="location.href='contact us.html';">Contact Us</button>
+    </div>
+
+        </div>
+		</div>
+    </div>
+
+
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="8" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+    <footer>
+        <div class="contact-info">
+            <div>CALL: 800 PARTY TIME (toll-free)</div>
+            <div>PARTY TIME: Dubai’s Top Rated Party Organizer</div>
+            <div>EMAIL: ask@partytime.com</div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/regentmiddleeast" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/DubaiPoliceHQ" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/regentmiddleeast/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright-info">
+            <span>&copy; Party Time 2023. All Rights Reserved.</span>
+            <span>Website Designed by Syed Raed Osama</span>
+        </div>
+    </footer>
+</body>
